@@ -1,9 +1,9 @@
 const ContactFormSection = () => {
   return (
-    <div className="text-gray-900 py-16">
+    <div className="text-gray-900 py-16" id="contactWithMe">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-purple-900 mb-4">Have a Project in Mind?</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4">Have a Project in Mind?</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
           There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
         </p>
