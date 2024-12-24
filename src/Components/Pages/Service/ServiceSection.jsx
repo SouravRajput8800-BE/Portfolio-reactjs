@@ -5,22 +5,22 @@ const ServicesSection = () => {
     const services = [
         {
             title: "E-Commerce",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula vel in.",
+            description: "Empowering businesses to thrive online with tailored e-commerce solutions that drive growth and customer engagement.",
             icon: <ShoppingCartIcon className="h-10 w-10 text-white" />,
         },
         {
             title: "Employee Management",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula vel in.",
+            description: "Streamline workforce operations with effective management tools designed to enhance productivity and collaboration.",
             icon: <UsersIcon className="h-10 w-10 text-white" />,
         },
         {
             title: "Social Media",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula vel in.",
+            description: "Boost your digital presence and connect with your audience through strategic social media solutions.",
             icon: <DesktopComputerIcon className="h-10 w-10 text-white" />,
         },
         {
             title: "Portfolio",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula vel in.",
+            description: "Showcase your achievements and creative projects with personalized portfolio designs that leave a lasting impression.",
             icon: <ViewGridIcon className="h-10 w-10 text-white" />,
         },
     ];
@@ -32,7 +32,7 @@ const ServicesSection = () => {
                     <span className="text-black text-5xl">My Services</span>
                 </h1>
                 <h2 className="text-lg text-gray-600 mb-4">
-                    There are many variations of passages of Lorem Ipsum available but <br />the majority have suffered alteration in some form.
+                    There are many variations From innovative e-commerce solutions to professional portfolio designs, <br />I provide a variety of services to meet your needs. <b>Let's</b> create something amazing together.
                 </h2>
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {services.map((service, index) => (

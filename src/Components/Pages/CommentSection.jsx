@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
     <div className="bg-gray-50 text-gray-900 py-16 my-20" style={{ backgroundColor: "#f3f8fd" }}>
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-purple-900 mb-4">Hear From My Clients</h2>
+        <h2 className="text-3xl font-bold text-blue-600 mb-4">Hear From My Clients</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
           There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.
         </p>
@@ -64,7 +64,7 @@ const TestimonialsSection = () => {
             <p className="text-gray-700 italic mb-6">"{testimonial.text}"</p>
 
             {/* Author Information */}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-start">
               <img
                 src={testimonial.image}
                 alt={testimonial.author}

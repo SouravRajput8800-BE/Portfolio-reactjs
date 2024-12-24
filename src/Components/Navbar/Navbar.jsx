@@ -46,7 +46,7 @@ const Navbar = () => {
                 className="absolute left-0 bottom-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
               ></span>
             </a>
-            <a href="/contact"
+            <a href="#contactWithMe"
               className="group relative px-3 py-2 text-black transition duration-300 ease-in-out"
             >
               Contact
@@ -105,7 +105,7 @@ const Navbar = () => {
           <a href="#skills" className="block px-4 py-2 hover:bg-gray-200">
               Skill's
           </a>
-          <a href="/contact" className="block px-4 py-2 hover:bg-gray-200">
+          <a href="#contactWithMe" className="block px-4 py-2 hover:bg-gray-200">
               Contact
           </a>
         </div>

@@ -14,7 +14,7 @@ const Home = ({ image }) => {
     <>
       <Navbar />
       <HeroSection image={image}/>
-      <AboutSection />
+      <AboutSection image={image}/>
       <ServiceSection />
       <RecentWork />
       <EmailSection />

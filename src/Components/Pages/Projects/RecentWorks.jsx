@@ -22,8 +22,10 @@ const PortfolioProjects = () => {
             <div className="max-w-7xl mx-auto px-4">
                 {/* Section Header */}
                 <div className="text-center mb-8">
-                    <h1 className="text-4xl font-bold text-gray-800">Portfolio Projects</h1>
-                    <p className="text-gray-600 mt-2">Showcasing some of our recent work</p>
+                    <h1 className="text-blue-600 text-lg sm:text-lg font-bold mb-4">
+                        Creative Project's <br />
+                        <span className="text-black text-5xl">Recent Work</span>
+                    </h1>
                 </div>
 
                 {/* Category Buttons */}
