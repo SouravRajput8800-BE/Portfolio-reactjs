@@ -17,16 +17,12 @@ const FullAboutPage = ({ image }) => {
         <div className="mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Section */}
           <div className="lg:col-span-2">
-            <img
-              src={image}
-              alt="Project"
-              className="w-full rounded-lg shadow-lg"
-            />
+            <img src={image} alt="Project" className="w-full rounded-lg shadow-lg" />
           </div>
 
           {/* Right Section */}
-          <div className="bg-white shadow-lg rounded-lg p-6">
-            <h3 className="text-xl font-bold text-blue-600">Information</h3>
+          <div className="bg-white border shadow rounded-lg p-6">
+            <h3 className="text-xl font-bold text-blue-600 underline">Information</h3>
             <ul className="mt-4 space-y-2 text-black">
                 <li>
                     <strong>Date of Birth:</strong> 14/July/19998
@@ -35,37 +31,35 @@ const FullAboutPage = ({ image }) => {
                     <strong>Working Experience:</strong> 2.5 Years as Software Developer
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Role:</strong> Software Developer
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Programming Skill's:</strong> Ruby on Rails, Node.js, React.js
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Primary Skill:</strong> Ruby on Rails
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                  <strong>Linkedin Profile:</strong> <a href="https://www.linkedin.com/in/sourav-kumar-5641961a0/" className="text-blue-600" target="_blank">
+                      My Linkedin Profile
+                    </a>
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>GitHub Account:</strong> <a href="https://github.com/SouravRajput8800-BE" className="text-blue-600" target="_blank">
+                      My GitHub Account
+                    </a>
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Material Status:</strong> Married
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Last Company:</strong> Grk Info Services Pvt. Ltd.
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
+                    <strong>Hobbies:</strong> Watching Cricket, Cycling, Learning
                 </li>
                 <li>
-                    <strong>Category:</strong> Branding, Design
-                </li>
-                <li>
-                    <strong>Date:</strong> June 21, 2024
-                </li>
-                <li>
-                    <strong>Project's</strong> bVokal, Acuity Coaching, Dacso Lab, Ginni-Biz
+                    <strong>Project's Done</strong> bVokal, Acuity Coaching, Dacso Lab, Ginni-Biz
                 </li>
                 <li>
                     <strong>Location:</strong> Uttam Nagar, New Delhi, India
@@ -73,7 +67,7 @@ const FullAboutPage = ({ image }) => {
             </ul>
             <a
               href="#"
-              className="mt-6 block bg-blue-600 text-white text-center py-3 rounded-full hover:bg-blue-700"
+              className="mt-6 block bg-blue-600 text-white text-center py-2 rounded-full hover:bg-blue-700"
             >
               Download My Resume
             </a>
